@@ -1,0 +1,351 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("ImageLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local about = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Teleportlar = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local Misc = Instance.new("Frame")
+local TextButton_9 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.100860998, 0, 0.146586344, 0)
+Frame.Size = UDim2.new(0, 460, 0, 293)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(53, 53, 53)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Size = UDim2.new(0, 112, 0, 293)
+Frame_2.Image = "rbxassetid://3570695787"
+Frame_2.ImageColor3 = Color3.fromRGB(98, 98, 98)
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_2.SliceScale = 0.120
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.20869565, 0, 0, 0)
+Frame_3.Size = UDim2.new(0, 16, 0, 293)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.565217316, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 28)
+TextLabel.Font = Enum.Font.Michroma
+TextLabel.Text = "Vakıf siken"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 36.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.565217316, 0, 0.0648464188, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_2.Font = Enum.Font.Michroma
+TextLabel_2.Text = "vbr exploits"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 18.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0, 0, 3.7252903e-09, 0)
+TextButton.Size = UDim2.new(0, 112, 0, 50)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "Teleportlar"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 24.000
+
+about.Name = "about"
+about.Parent = Frame
+about.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+about.BorderSizePixel = 0
+about.Position = UDim2.new(0.276086956, 0, 0.160409555, 0)
+about.Size = UDim2.new(0, 322, 0, 235)
+
+TextLabel_3.Parent = about
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.188198686, 0, 0.411545992, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_3.Font = Enum.Font.Michroma
+TextLabel_3.Text = "GUI'nin hazırlanmış olduğu oyunla"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 18.000
+
+TextLabel_4.Parent = about
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.188198686, 0, 0.0600101501, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_4.Font = Enum.Font.Michroma
+TextLabel_4.Text = "vbr tarafından yapılmıştır."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 18.000
+
+TextLabel_5.Parent = about
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.188198686, 0, 0.155573323, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_5.Font = Enum.Font.Michroma
+TextLabel_5.Text = "Sunucudaki herkez destekçimizdir."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 18.000
+
+TextLabel_6.Parent = about
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.188198686, 0, 0.507109165, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 28)
+TextLabel_6.Font = Enum.Font.Michroma
+TextLabel_6.Text = "Herhangibi bir ilişkimiz yoktur."
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 18.000
+
+Teleportlar.Name = "Teleportlar"
+Teleportlar.Parent = Frame
+Teleportlar.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Teleportlar.BorderSizePixel = 0
+Teleportlar.Position = UDim2.new(0.276086956, 0, 0.160409555, 0)
+Teleportlar.Size = UDim2.new(0, 322, 0, 235)
+Teleportlar.Visible = false
+
+TextButton_2.Parent = Teleportlar
+TextButton_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_2.Position = UDim2.new(0.0341614895, 0, 0.055319149, 0)
+TextButton_2.Size = UDim2.new(0, 304, 0, 27)
+TextButton_2.Font = Enum.Font.Highway
+TextButton_2.Text = "Morph Odası"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 32.000
+
+TextButton_3.Parent = Teleportlar
+TextButton_3.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_3.Position = UDim2.new(0.0279503092, 0, 0.225531906, 0)
+TextButton_3.Size = UDim2.new(0, 304, 0, 27)
+TextButton_3.Font = Enum.Font.Highway
+TextButton_3.Text = "Vakıfın Dışarısı"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 32.000
+
+TextButton_4.Parent = Teleportlar
+TextButton_4.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_4.Position = UDim2.new(0.0279503092, 0, 0.391489357, 0)
+TextButton_4.Size = UDim2.new(0, 304, 0, 27)
+TextButton_4.Font = Enum.Font.Highway
+TextButton_4.Text = "Euclid Zone"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 32.000
+
+TextButton_5.Parent = Teleportlar
+TextButton_5.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_5.Position = UDim2.new(0.0279503092, 0, 0.561702132, 0)
+TextButton_5.Size = UDim2.new(0, 304, 0, 27)
+TextButton_5.Font = Enum.Font.Highway
+TextButton_5.Text = "Keter Zone"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 32.000
+
+TextButton_6.Parent = Teleportlar
+TextButton_6.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_6.Position = UDim2.new(0.0279503092, 0, 0.731914878, 0)
+TextButton_6.Size = UDim2.new(0, 304, 0, 27)
+TextButton_6.Font = Enum.Font.Highway
+TextButton_6.Text = "Ajan Bölgesi"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 32.000
+
+TextLabel_7.Parent = Teleportlar
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.226708084, 0, 0.846808493, 0)
+TextLabel_7.Size = UDim2.new(0, 179, 0, 36)
+TextLabel_7.Font = Enum.Font.Arial
+TextLabel_7.Text = "Ajan Bölgesindeki X-Ray den geçerken yanından noclip ile geçin yoksa ölürsünüz."
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 7.000
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0, 0, 0.170648456, 0)
+TextButton_7.Size = UDim2.new(0, 112, 0, 50)
+TextButton_7.Font = Enum.Font.Cartoon
+TextButton_7.Text = "Misc"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 24.000
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.Position = UDim2.new(0, 0, 0.351535857, 0)
+TextButton_8.Size = UDim2.new(0, 112, 0, 50)
+TextButton_8.Font = Enum.Font.Cartoon
+TextButton_8.Text = "Hakkında"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 24.000
+
+Misc.Name = "Misc"
+Misc.Parent = Frame
+Misc.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Misc.BorderSizePixel = 0
+Misc.Position = UDim2.new(0.276086956, 0, 0.160409555, 0)
+Misc.Size = UDim2.new(0, 322, 0, 235)
+Misc.Visible = false
+
+TextButton_9.Parent = Misc
+TextButton_9.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_9.Position = UDim2.new(0.0341614895, 0, 0.055319149, 0)
+TextButton_9.Size = UDim2.new(0, 304, 0, 49)
+TextButton_9.Font = Enum.Font.Highway
+TextButton_9.Text = "infinite yield"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 32.000
+
+-- Scripts:
+
+local function LQFA_fake_script() -- Frame.Script 
+	local script = Instance.new('Script', Frame)
+
+	script.Parent.Draggable = true
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(LQFA_fake_script)()
+local function CNLA_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local function yomama()
+		script.Parent.Parent.Misc.Visible = false
+		script.Parent.Parent.Teleportlar.Visible = true
+		script.Parent.Parent.about.Visible = false
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(CNLA_fake_script)()
+local function YWOTWG_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local function yomama()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-405, 4, -1133)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(YWOTWG_fake_script)()
+local function HOVM_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local function yomama()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-820, 218, 948)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(HOVM_fake_script)()
+local function UPDWJG_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local function yomama()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-644, 20, -722)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(UPDWJG_fake_script)()
+local function THPXUGI_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local function yomama()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1666, 11, -435)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(THPXUGI_fake_script)()
+local function UWCCE_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local function yomama()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2302, 126, -129)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(UWCCE_fake_script)()
+local function XPGZ_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local function yomama()
+		script.Parent.Parent.Misc.Visible = true
+		script.Parent.Parent.Teleportlar.Visible = false
+		script.Parent.Parent.about.Visible = false
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(XPGZ_fake_script)()
+local function JUOJXSY_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local function yomama()
+		script.Parent.Parent.Misc.Visible = false
+		script.Parent.Parent.Teleportlar.Visible = false
+		script.Parent.Parent.about.Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(JUOJXSY_fake_script)()
+local function FVBET_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local function yomama()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(yomama)
+end
+coroutine.wrap(FVBET_fake_script)()
