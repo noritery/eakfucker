@@ -309,7 +309,7 @@ local function UWCCE_fake_script() -- TextButton_6.LocalScript
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local function yomama()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2302, 126, -129)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2392, 96, -246)
 	end
 	
 	script.Parent.MouseButton1Down:Connect(yomama)
